@@ -5,8 +5,15 @@ runs with Python 3.6 if all requirements are installed. Things changed were:
 1. `import urllib.request as urllib2` as native urllib2 is unavailable.
 2. `        with open(path, 'rb') as f:
                   img_raw = f.read()`
+                  
+You can train yourself (default settings work, see below how to do it) or use my pretrained file. Safe it in frozen:
+
+`cd frozen`
+
+`wget http://econovo.io/stanford_5_64_0001.pb`
             
 To test:
+
 `python -m src.inference.classify3 file images/airedale.jpg`
 
 (original readme starts here)
