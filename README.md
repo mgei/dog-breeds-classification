@@ -1,3 +1,15 @@
+(original readme below)
+actually a fork from https://github.com/stormy-ua/dog-breeds-classification
+
+runs with Python 3.6 if all requirements are installed. Things changed were:
+1. `import urllib.request as urllib2` as native urllib2 is unavailable.
+2. `        with open(path, 'rb') as f:
+                  img_raw = f.read()`
+            
+To test:
+`python -m src.inference.classify3 file images/airedale.jpg`
+
+(original readme starts here)
 ## Dog Breeds Classification
 
 This repo is intended to contain a set of scripts and data for reproducing dog breed classification model training, analysis, and inference.
