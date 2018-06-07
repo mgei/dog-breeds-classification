@@ -7,6 +7,7 @@ runs with Python 3.6 if all requirements are installed. Things changed were:
                   img_raw = f.read()`
                   
 You can train yourself (default settings work, see below how to do it) or use my pretrained file. Safe it in frozen:
+
 `cd frozen`
 `wget http://econovo.io/stanford_5_64_0001.pb`
             
